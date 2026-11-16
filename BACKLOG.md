@@ -4,6 +4,7 @@ Updated 2026-11-16. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.6.0 (moves between moves): stage 3A of the motion plan. Run start, stop and turn frames, a four frame take-off, a top of the jump, three falling frames and a five frame landing. Idle, jumps, landing and hit from real KayKit clips (CC0) copied onto Wren by `tools/wren/retarget.py`. Fixed the turn pinch facing flip and the run's backward lean. A live 3D test link in the real level. A new headless `--moves` test.
 - v0.5.0 (the whip in hand): stage 2 of the motion plan. Between strikes the whip hangs from Wren's hand as a coil and a short tail moved by rope physics. It hangs from her belt while she holds another weapon. A painted braided lash and wrapped grip from Gemini. A tip hit deals 6 in place of 4 (BC, 2026-11-16). The whip and its hit box stop at rock. Presses are remembered for 0.1 s. Hand spots on every frame of every move. A new headless `--whip` test.
 - v0.4.0 (the whip and the run): stage 1 of the motion plan. The Leather Whip, drawn live on every screen frame, is Wren's main weapon. The rusty sword is the second weapon. The run has 16 frames at 30 a second with bigger swings, a bounce and a lean. A feel pass: steps follow speed, a softer start and stop, dust at each footfall and a pinch on a fast turn. A phone test page shows Wren drawn live in 3D with a frame counter.
 - v0.3.0 (sound and strikes): fixed the silent browser builds. Three dark music tracks from Patch.gg with fades. Every strike redone with a wind-up, swing, follow-through and recovery (52 frames in place of 22), a gliding weapon, a swing streak, a hit pause and a motion for abilities. New tests for strikes and for real sound output.
@@ -22,7 +23,8 @@ Updated 2026-11-16. BC decides the order. Pick ideas by number.
 
 ## Now
 
-- BC's numbers from the phone test page (https://bclark10121-cloud.github.io/home-by-dusk/live3d-test/): the three Result lines. They pick stage 3 of the motion plan: more sprite frames, or Wren drawn live in 3D.
+- BC's three Result lines from the live 3D test in the hollow (v0.6.0) and his look: does live Wren belong in the painting? They decide whether stage 3B (Wren drawn live in the game) comes next. The phone test page gave 60 frames a second at High, Medium and Low on his Z Fold 8 (BC, 2026-11-16).
+- BC's look at the new moves: start, stop, turn, take-off, top of the jump, fall and landing.
 - BC's feel pass on the whip: reach (4 tiles), wind-up speed, hold to repeat and the crack sound.
 - BC's look at the whip in hand (v0.5.0): the coil, the tail, the belt during sword swings and the painted leather. Too lively, too still, too long or too short?
 - BC's feel pass on the tip bonus (6 in place of 4, the last quarter of the reach) and the 0.1 s button memory.
@@ -72,7 +74,9 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 ## Later
 
 - Whip, more ideas: a soft trail on the tip during the crack, a coil that unrolls into the wind-up in place of a quick swap, aim it up and at a slant, swing from hooks, pull small items toward Wren and wrap a foe to hold it for a moment.
-- Start, stop and turn frames for Wren, and more jump, fall and land frames (stage 3, if the phone test says stay on pictures).
+- Stage 3B, if BC's live 3D test passes: Wren drawn live in the game, the model cut to 3,000 to 5,000 triangles, the clips stored in the model so the engine blends every move, and the painted look rebuilt as a shader.
+- A roll and a ledge climb from real clips. The free KayKit tier has none. A paid tier or another CC0 source may.
+- Use the pick up frames when Wren picks up an item.
 - Strikes, next steps if they still feel stiff: leg and hip movement in each swing, a painted smear frame at the fastest point, a short dash step on the combo finisher, strike sounds matched to each weapon type, and run and jump strikes with their own poses.
 - Ambient sound for the hollow: wind in the pines, an owl, creaking branches and the torch crackle.
 - More spooky touches in the art, for BC to pick from: thicker ground mist, bare twisted trees, will-o'-the-wisps, eyes that blink in the dark, crows on the arches, a pale moon and cobwebs in the hidden room.
@@ -108,3 +112,4 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 - 2026-11-15: always replace the Game Shelf picture with a new game picture on every release.
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.
 - 2026-11-16: build stage 2 of the motion plan as v0.5.0. A tip hit deals 6 in place of 4.
+- 2026-11-16: the phone test page holds 60 frames a second at all three qualities on BC's Z Fold 8. Stage 3A ships as v0.6.0, plus a live 3D test in the real level before deciding on 3B.
