@@ -16,7 +16,7 @@ v0.1.0 and v0.2.0 carried "Grasslands" by the same maker (JRPG Pack 1: Explorati
 
 ## Made for this game
 
-- Painted art (from v0.2.0): the scenery, props, foes, weapons, abilities, keepsakes, coin and ground textures were painted for this game with Google Gemini (an AI image tool) from original prompts and the hero's own reference art, then cut into game art by `tools/make_painted.py`. The source sheets are in `art_src/gemini/`.
+- Painted art (from v0.2.0): the scenery, props, foes, weapons, abilities, keepsakes, coin, ground textures and the whip leather (v0.5.0) were painted for this game with Google Gemini (an AI image tool) from original prompts and the hero's own reference art, then cut into game art by `tools/make_painted.py`. The source sheets are in `art_src/gemini/`.
 - Hero model: made for this game from original reference art through Gemini (concept views) and Meshy (image to 3D, texture, remesh and rig). Rendered into sprites with Blender (`tools/wren/`).
 - The sky, fog, glows, shadows and the icon layout: made in code (`tools/make_painted.py`, `tools/make_icon_master.py`).
 - Every sound effect: a small synth in code (`tools/make_sounds.py`).
