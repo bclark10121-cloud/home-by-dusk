@@ -1,6 +1,6 @@
 # Home by Dusk
 
-A calm pixel art action platformer. Walk the Dusk Hollow, find keepsakes and secrets, gather better weapons and abilities, and head home by dusk. Foes cost energy, never a life. Play it in your browser or install the Android APK from the game page: https://bclark10121-cloud.github.io/home-by-dusk/
+A calm painted storybook action platformer. Walk the Dusk Hollow, find keepsakes and secrets, gather better weapons and abilities, and head home by dusk. Foes cost energy, never a life. Play it in your browser or install the Android APK from the game page: https://bclark10121-cloud.github.io/home-by-dusk/
 
 ## What is in this repo
 

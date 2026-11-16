@@ -1,6 +1,6 @@
 # Credits
 
-Home by Dusk is an original game. The level, the foes, the weapons, the abilities, the hero, the tiles, the backdrops and the icon are drawn in code (`tools/make_art.py`, `tools/make_icon_master.py`). The sound effects are made in code (`tools/make_sounds.py`). No personal names here (G1.11).
+Home by Dusk is an original game. No personal names here (G1.11).
 
 ## Music (found through the Patch.gg asset library)
 
@@ -10,9 +10,10 @@ Home by Dusk is an original game. The level, the foes, the weapons, the abilitie
 
 ## Made for this game
 
-- Hero model: made for this game from original reference art through Gemini (concept views) and Meshy (image to 3D, texture, remesh and rig).
-- Every sprite, tile, backdrop and the icon: drawn in code.
-- Every sound effect: a small synth in code.
+- Painted art (from v0.2.0): the scenery, props, foes, weapons, abilities, keepsakes, coin and ground textures were painted for this game with Google Gemini (an AI image tool) from original prompts and the hero's own reference art, then cut into game art by `tools/make_painted.py`. The source sheets are in `art_src/gemini/`.
+- Hero model: made for this game from original reference art through Gemini (concept views) and Meshy (image to 3D, texture, remesh and rig). Rendered into sprites with Blender (`tools/wren/`).
+- The sky, fog, glows, shadows and the icon layout: made in code (`tools/make_painted.py`, `tools/make_icon_master.py`).
+- Every sound effect: a small synth in code (`tools/make_sounds.py`).
 
 ## Inspiration
 
@@ -21,3 +22,4 @@ Home by Dusk is an original game. The level, the foes, the weapons, the abilitie
 ## Tools
 
 - Godot Engine 4.6. https://godotengine.org (MIT licence)
+- Blender (the bpy module). https://www.blender.org (GPL. Used as a tool only)
