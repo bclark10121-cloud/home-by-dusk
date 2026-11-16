@@ -4,6 +4,7 @@ Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.4.0 (the whip and the run): stage 1 of the motion plan. The Leather Whip, drawn live on every screen frame, is Wren's main weapon. The rusty sword is the second weapon. The run has 16 frames at 30 a second with bigger swings, a bounce and a lean. A feel pass: steps follow speed, a softer start and stop, dust at each footfall and a pinch on a fast turn. A phone test page shows Wren drawn live in 3D with a frame counter.
 - v0.3.0 (sound and strikes): fixed the silent browser builds. Three dark music tracks from Patch.gg with fades. Every strike redone with a wind-up, swing, follow-through and recovery (52 frames in place of 22), a gliding weapon, a swing streak, a hit pause and a motion for abilities. New tests for strikes and for real sound output.
 - v0.2.0 (painted look): the whole game redrawn as a painted storybook in HD after BC found v0.1.0 too low in resolution. Gemini-painted scenery, props, foes and gear cut into game art by `tools/make_painted.py`. Wren's Meshy model shown at 192 pixel frames with an ink outline. Painted ground, a dusk forest in three misty rows, fog, glows, fireflies, smoke and soft shadows. A new painted icon.
 - v0.2.0: a short gear list for the first releases. 4 weapons and 4 abilities drop and sell. The rest wait in the data and Tester tools.
@@ -20,12 +21,15 @@ Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Now
 
-- BC's answer on the motion review of 2026-11-15 (`research/2026-11-15 whip and smooth motion.md`). The plan: stage 1 makes a live-drawn whip the main weapon and ships the livelier 16 frame run with a feel pass. Stage 2 lets the whip hang from the hand. A phone test of Wren drawn live in 3D then picks stage 3.
-- BC's pass on the new strikes: which weapons still feel stiff, and whether the hit pause is the right length.
+- BC's numbers from the phone test page (https://bclark10121-cloud.github.io/home-by-dusk/live3d-test/): the three Result lines. They pick stage 3 of the motion plan: more sprite frames, or Wren drawn live in 3D.
+- BC's feel pass on the whip: reach (4 tiles), wind-up speed, hold to repeat and the crack sound.
+- BC's look at the new run, lean and dust at full speed.
+- Stage 2 of the motion plan, after BC's pass: the whip hangs and sways from Wren's hand between strikes, gets a painted texture and a bonus for a hit with the tip.
+- BC's pass on the other strikes: which weapons still feel stiff, and whether the hit pause is the right length.
 - BC's listen to the three dark music tracks. Swap any by naming the mood you want.
 - Keep the dark, spooky mood in everything new (BC, 2026-11-15).
 - BC's look pass on the painted art: anything that reads wrong, too dark, too busy or too soft.
-- BC's feel pass on jump height, run speed and the strike timings. The debug Feel tools switch them live.
+- BC's feel pass on jump height, run speed, starts and stops and the strike timings. The debug Feel tools switch them live.
 - A speed check on a real phone. The HD art is heavier to draw than the pixel art was.
 
 ## Asked for by BC, not built yet
@@ -65,6 +69,8 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 
 ## Later
 
+- Whip, more ideas: aim it up and at a slant, swing from hooks, pull small items toward Wren and wrap a foe to hold it for a moment.
+- Start, stop and turn frames for Wren, and more jump, fall and land frames (stage 3, if the phone test says stay on pictures).
 - Strikes, next steps if they still feel stiff: leg and hip movement in each swing, a painted smear frame at the fastest point, a short dash step on the combo finisher, strike sounds matched to each weapon type, and run and jump strikes with their own poses.
 - Ambient sound for the hollow: wind in the pines, an owl, creaking branches and the torch crackle.
 - More spooky touches in the art, for BC to pick from: thicker ground mist, bare twisted trees, will-o'-the-wisps, eyes that blink in the dark, crows on the arches, a pale moon and cobwebs in the hidden room.
@@ -96,5 +102,6 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 - 2026-11-15: after v0.2.0, the next release adds music from Patch.gg and improves the motion of using weapons, which felt very stiff. BC heard no music in v0.2.0.
 - 2026-11-15: keep a dark, spooky vibe to the game.
 - 2026-11-15: after v0.3.0 the character's animation and the weapon still feel too stiff. Maybe switch to a whip as the main weapon. BC asked for a review with several agents on how to animate a whip and how to smooth the run and the movement.
+- 2026-11-15: yes to both decisions from the motion review. Stage 1 ships as v0.4.0 (the whip as main weapon, the new run and the feel pass) and a separate phone test link shows Wren drawn live in 3D.
 - 2026-11-15: always replace the Game Shelf picture with a new game picture on every release.
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.
