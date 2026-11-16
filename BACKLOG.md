@@ -20,6 +20,7 @@ Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Now
 
+- BC's answer on the motion review of 2026-11-15 (`research/2026-11-15 whip and smooth motion.md`). The plan: stage 1 makes a live-drawn whip the main weapon and ships the livelier 16 frame run with a feel pass. Stage 2 lets the whip hang from the hand. A phone test of Wren drawn live in 3D then picks stage 3.
 - BC's pass on the new strikes: which weapons still feel stiff, and whether the hit pause is the right length.
 - BC's listen to the three dark music tracks. Swap any by naming the mood you want.
 - Keep the dark, spooky mood in everything new (BC, 2026-11-15).
@@ -51,6 +52,16 @@ From the Dead Cells review, reshaped for a calm game:
 14. Outfits for Wren bought with coins. Looks only.
 15. A Christmas theme toggle (G4.5).
 16. Daily walk. One fixed seed per day with a personal best for coins gathered.
+
+## Unfinished standards items (2026-11-15)
+
+From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on a real device. Each line comes off when it is done. BC picks when.
+
+- E5.4: touch buttons are 84 to 124 pixels across at 1280 x 720. Try them on a small phone.
+- E6.5: time how long a browser save takes to reach the browser store on a real phone.
+- E1.3: the main loop, the HUD and the effects run each frame while playing. Check on a phone whether any of them needs to sleep.
+- E3.3: the 2D sprites are stored lossless (about 30 MB of textures). Check on a low memory phone.
+- Real device check: the speed of the HD art on a real phone, a tablet, the Retroid and an Xbox controller. The test browser drew 3 to 4 frames a second.
 
 ## Later
 
@@ -84,5 +95,6 @@ From the Dead Cells review, reshaped for a calm game:
 - 2026-11-15: v0.1.0 is too low in resolution. Back to design. Of five directions BC chose number 4, the painted storybook: Gemini-painted scenery and props, Wren rendered in HD to match.
 - 2026-11-15: after v0.2.0, the next release adds music from Patch.gg and improves the motion of using weapons, which felt very stiff. BC heard no music in v0.2.0.
 - 2026-11-15: keep a dark, spooky vibe to the game.
+- 2026-11-15: after v0.3.0 the character's animation and the weapon still feel too stiff. Maybe switch to a whip as the main weapon. BC asked for a review with several agents on how to animate a whip and how to smooth the run and the movement.
 - 2026-11-15: always replace the Game Shelf picture with a new game picture on every release.
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.
