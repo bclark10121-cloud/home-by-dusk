@@ -1,6 +1,6 @@
 # Home by Dusk: backlog
 
-Updated 2026-11-15. Brian decides the order. Pick ideas by number.
+Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Done
 
@@ -12,19 +12,18 @@ Updated 2026-11-15. Brian decides the order. Pick ideas by number.
 - Three foes that telegraph: mossling (lunge), puffcap (hop), moth (swoop). Burn, slow, freeze, stun and root.
 - Six keepsakes, one secret, a journal and personal records.
 - Five save slots, the kit Settings with Camera, Foe hits (Normal, Gentle, None), Damage numbers and Ledge climb. Tester tools.
-- Hero model made through the Claude, Gemini and Meshy workflow (front, side and back views, image to 3D, texture, remesh, rig).
+- Hero made through the Claude, Gemini and Meshy workflow (front, side and back views, image to 3D, texture, remesh, rig), rendered into 57 pixel art frames: run from Meshy's run clip, every other move posed on its skeleton.
+- G8.5 added to the standards: the sprite workflow.
 
 ## Now
 
-- Render the Meshy model into the 48 x 48 hero sprite sheet and swap it in for the drawn Wren (same frame layout, `hero.json` keeps the hand positions).
-- Brian's feel pass on jump height, run speed and the strike timings. The debug Feel tools switch them live.
+- BC's feel pass on jump height, run speed and the strike timings. The debug Feel tools switch them live.
 
-## Asked for by Brian, not built yet
+## Asked for by BC, not built yet
 
-- G8.5 in `GAME_STANDARDS.md`: the Claude, Gemini and Meshy sprite workflow as a standard, after the hero is done.
 - More levels after the feel is tuned. One level until then.
 
-## Ideas to choose from (Brian picks by number)
+## Ideas to choose from (BC picks by number)
 
 From the Dead Cells review, reshaped for a calm game:
 
@@ -47,6 +46,8 @@ From the Dead Cells review, reshaped for a calm game:
 
 ## Later
 
+- Pose polish for the Meshy hero: a richer idle, a clearer climb and a bigger wind-up on heavy swings.
+- Render Pip and the foes through the same Meshy workflow.
 - Real device check on a phone, a tablet, the Retroid and an Xbox controller (G7.10).
 - Hit pause and more juice on strikes after the hero sprite swap.
 
@@ -57,7 +58,7 @@ From the Dead Cells review, reshaped for a calm game:
 - Cursed chests that kill on one hit. A gentle version is idea 9.
 - Leaderboards or anything against other players.
 
-## Decisions from Brian
+## Decisions from BC
 
 - 2026-11-15: name Home by Dusk. The trip ends through the energy meter. Hybrid carry-over: coins and keepsakes stay, gear resets on the trip home. 2D pixel art in Godot 2D.
 - 2026-11-15: two weapons and two abilities at once, support 20 of each, gear from secrets, foes and the merchant at the end of each level, foes drop coins, one small level until the gameplay is tuned, the player can jump, the hero through the Claude, Gemini and Meshy workflow.
