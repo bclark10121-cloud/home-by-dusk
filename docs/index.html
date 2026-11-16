@@ -1,0 +1,68 @@
+<!doctype html>
+<!-- Game page from game-studio/templates (G1.4, G1.8). Keep the line under the buttons exactly: Version <version>. Release notes · Backlog -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home by Dusk</title><link rel="icon" href="icon.png">
+<meta name="description" content="Home by Dusk is a calm pixel art action platformer for Android and the browser. Explore the hollow, find keepsakes and secrets, gather gear and head home by dusk.">
+<style>
+:root{--ink:#2a2140;--accent:#5b3f86;--warm:#d9773a;--card:#fff7ef}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(#3a2b63 0%,#8a4f7d 34%,#f0a35e 62%,#f7e3cf 100%) fixed;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:36px 20px 60px}
+header{text-align:center;color:#fff6ea}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(40px,8vw,64px);letter-spacing:3px;margin:14px 0 0;color:#ffe2b0;text-transform:uppercase;text-shadow:0 2px 0 rgba(0,0,0,.25)}
+.tag{letter-spacing:4px;text-transform:uppercase;font-size:12px;opacity:.9;margin:4px 0 22px}
+.lead{font-size:18px;max-width:640px;margin:0 auto 24px;text-wrap:balance}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+a.btn{display:inline-block;padding:13px 22px;border-radius:14px;font-weight:700;text-decoration:none;border:1px solid rgba(0,0,0,.2)}
+a.primary{background:#ffcf8a;color:var(--ink)}a.ghost{background:rgba(255,255,255,.8);color:var(--ink)}
+a.btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.note{font-size:13px;opacity:.9;text-align:center}.note a{color:inherit}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:34px 0}
+.shots img{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.35);display:block;image-rendering:pixelated}
+h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:1px;color:var(--accent);font-size:24px;margin:34px 0 10px;font-weight:400}
+section{background:rgba(255,247,239,.92);border-radius:18px;padding:6px 20px 18px;margin-top:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid rgba(42,33,64,.14);border-radius:14px;padding:14px 16px}
+.card b{color:var(--warm)}ol,ul{padding-left:20px;margin:6px 0}footer{margin-top:40px;font-size:13px;opacity:.8;text-align:center}footer a{color:inherit}
+@media (max-width:560px){.shots{grid-template-columns:1fr 1fr}.shots img:last-child{display:none}}
+</style></head><body><main>
+<header><h1>Home by Dusk</h1><div class="tag">A calm pixel art adventure</div>
+<p class="lead">Wren walks the Dusk Hollow at her own pace. Find keepsakes and secrets, pick up better weapons and abilities, and spend your coins at Pip's cart. Foes cost energy, never a life. When you tire, you head home by dusk with your coins.</p>
+<div class="cta"><a class="btn primary" href="play/">Play in your browser</a><a class="btn ghost" href="downloads/HomeByDusk-v0.1.0.apk">Download for Android (APK)</a></div>
+<p class="note">Version 0.1.0. <a href="release-notes/v0.1.0.md">Release notes</a> · <a href="https://github.com/bclark10121-cloud/home-by-dusk/blob/main/BACKLOG.md">Backlog</a></p></header>
+<div class="shots"><img src="shot-dummy.jpg" alt="Wren swings her sword at the training dummy near her cottage"><img src="shot-ledges.jpg" alt="Wooden ledges, a moth and a bow waiting high up in the hollow"><img src="shot-cart.jpg" alt="Wren at Pip's cart, with the glowing door to the next run beyond"></div>
+<section>
+<h2>What kind of game is this?</h2>
+<div class="grid">
+<div class="card"><b>Low risk.</b> Foes warn you before they strike and only cost energy. No bosses, no lives and no game over.</div>
+<div class="card"><b>A gentle loop.</b> Each run gathers gear. The door past Pip's cart starts another run with what you carry. Heading home resets your gear. Coins and keepsakes always stay.</div>
+<div class="card"><b>Modern movement.</b> Double jump, roll through danger, climb ledges by walking into them and drop through wooden platforms.</div>
+<div class="card"><b>Gear to try.</b> 20 weapons and 20 abilities. Hold two of each, each on its own button.</div>
+</div>
+<h2>Things to do</h2>
+<ul><li>Find six keepsakes hidden around the hollow. They stay found forever.</li>
+<li>Break the old cracked wall and find the secret chest.</li>
+<li>Try swords, daggers, spears, hammers, bows, axes and whips.</li>
+<li>Throw knives, toss bombs, raise a shield, plant a turret, dash, set traps or brew a cup of tea.</li>
+<li>Collect coins from foes and chests and spend them at Pip's cart.</li>
+<li>Chain a combo and beat your best in the journal.</li>
+<li>Go through the door for another run and see what changes.</li></ul>
+<h2>Controls</h2>
+<div class="grid">
+<div class="card"><b>Keyboard</b><br>A D or arrows walk. Space jumps. L or Shift rolls. J and K swing your weapons. U and I use your abilities. E picks up, opens and talks. S + Space drops through a ledge. Tab opens the journal. Esc opens the Menu.</div>
+<div class="card"><b>Xbox controller</b><br>Left stick or D-pad walks. A jumps. B rolls. X and Y swing your weapons. LT and RT use your abilities. RB picks up, opens and talks. Down + A drops. LB opens the journal. View or Menu opens the Menu. In menus A chooses and B goes back.</div>
+<div class="card"><b>Touch</b><br>Drag on the left half to walk, drag down to drop. Jump, Roll, two weapon buttons, two ability buttons and Use sit on the right. Menu at the top right.</div>
+</div>
+<h2>Play with an Xbox controller</h2>
+<p>Any Xbox Wireless Controller with Bluetooth works. That is every Series X|S controller and the Xbox One controllers made since 2016. If the plastic around the Xbox button matches the face of the controller, it has Bluetooth. Other controllers that your phone or browser sees as a standard gamepad use the same buttons.</p>
+<div class="grid">
+<div class="card"><b>On Android</b><ol><li>Hold the Xbox button to turn the controller on.</li><li>Hold the small Pair button on top for 3 seconds, until the Xbox button flashes fast.</li><li>On your phone, open Settings, then Connected devices, then Pair new device.</li><li>Tap Xbox Wireless Controller. The Xbox button stays lit when it is connected.</li><li>Open Home by Dusk. The touch buttons hide as soon as you use the controller.</li></ol></div>
+<div class="card"><b>In your browser</b><ol><li>Connect the controller to your computer with a USB cable or Bluetooth.</li><li>Open Play in your browser. Chrome, Edge, Firefox and Safari all work.</li><li>Press any button once after the game loads, so the browser sees the controller.</li></ol></div>
+</div>
+<h2>Install on Android</h2>
+<ol><li>Tap Download for Android on this page.</li><li>Open the file. Allow installs from your browser if your phone asks.</li><li>Tap Install, then Open.</li><li>This is the first version. Later versions install over it and keep your saves.</li></ol>
+<h2>Feedback</h2>
+<p>Tell us what you think. Useful things to note:</p>
+<ul><li>How walking, jumping, rolling and climbing feel.</li><li>Which weapons and abilities feel good and which feel weak.</li><li>Whether foes feel too easy or too pushy.</li><li>Anything that looks wrong, with a screenshot.</li><li>Your phone or browser.</li></ul>
+</section>
+<footer>Home by Dusk. Music: "Grasslands" by Juhani Junkala (CC0), found through Patch.gg. <a href="https://github.com/bclark10121-cloud/home-by-dusk/blob/main/CREDITS.md">Credits</a> · <a href="privacy.html">Privacy</a> · <a href="https://bclark10121-cloud.github.io/">More games on The Game Shelf</a></footer>
+</main></body></html>
