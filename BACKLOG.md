@@ -4,6 +4,7 @@ Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.3.0 (sound and strikes): fixed the silent browser builds. Three dark music tracks from Patch.gg with fades. Every strike redone with a wind-up, swing, follow-through and recovery (52 frames in place of 22), a gliding weapon, a swing streak, a hit pause and a motion for abilities. New tests for strikes and for real sound output.
 - v0.2.0 (painted look): the whole game redrawn as a painted storybook in HD after BC found v0.1.0 too low in resolution. Gemini-painted scenery, props, foes and gear cut into game art by `tools/make_painted.py`. Wren's Meshy model shown at 192 pixel frames with an ink outline. Painted ground, a dusk forest in three misty rows, fog, glows, fireflies, smoke and soft shadows. A new painted icon.
 - v0.2.0: a short gear list for the first releases. 4 weapons and 4 abilities drop and sell. The rest wait in the data and Tester tools.
 - v0.1.0 (first beta): one small level, the Dusk Hollow. Wren walks, runs, jumps, double jumps, rolls, climbs ledges and drops through wooden ledges.
@@ -19,6 +20,9 @@ Updated 2026-11-15. BC decides the order. Pick ideas by number.
 
 ## Now
 
+- BC's pass on the new strikes: which weapons still feel stiff, and whether the hit pause is the right length.
+- BC's listen to the three dark music tracks. Swap any by naming the mood you want.
+- Keep the dark, spooky mood in everything new (BC, 2026-11-15).
 - BC's look pass on the painted art: anything that reads wrong, too dark, too busy or too soft.
 - BC's feel pass on jump height, run speed and the strike timings. The debug Feel tools switch them live.
 - A speed check on a real phone. The HD art is heavier to draw than the pixel art was.
@@ -50,6 +54,9 @@ From the Dead Cells review, reshaped for a calm game:
 
 ## Later
 
+- Strikes, next steps if they still feel stiff: leg and hip movement in each swing, a painted smear frame at the fastest point, a short dash step on the combo finisher, strike sounds matched to each weapon type, and run and jump strikes with their own poses.
+- Ambient sound for the hollow: wind in the pines, an owl, creaking branches and the torch crackle.
+- More spooky touches in the art, for BC to pick from: thicker ground mist, bare twisted trees, will-o'-the-wisps, eyes that blink in the dark, crows on the arches, a pale moon and cobwebs in the hidden room.
 - Real 2D lights with normal maps on Wren and the props, so torchlight falls on them. This release uses additive glows only.
 - More animation in the painted art: foes have two painted poses each and move by squash and tilt. Paint more poses, or build them as cut-out puppets.
 - Paint Pip a talk pose and a wave.
@@ -75,4 +82,7 @@ From the Dead Cells review, reshaped for a calm game:
 - 2026-11-15: two weapons and two abilities at once, support 20 of each, gear from secrets, foes and the merchant at the end of each level, foes drop coins, one small level until the gameplay is tuned, the player can jump, the hero through the Claude, Gemini and Meshy workflow.
 - 2026-11-15: the Dead Cells files on Drive are the game's own files. Reference only. Nothing from them goes into this game.
 - 2026-11-15: v0.1.0 is too low in resolution. Back to design. Of five directions BC chose number 4, the painted storybook: Gemini-painted scenery and props, Wren rendered in HD to match.
+- 2026-11-15: after v0.2.0, the next release adds music from Patch.gg and improves the motion of using weapons, which felt very stiff. BC heard no music in v0.2.0.
+- 2026-11-15: keep a dark, spooky vibe to the game.
+- 2026-11-15: always replace the Game Shelf picture with a new game picture on every release.
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.

@@ -4,9 +4,15 @@ Home by Dusk is an original game. No personal names here (G1.11).
 
 ## Music (found through the Patch.gg asset library)
 
-- "Grasslands" by Juhani Junkala, from JRPG Pack 1: Exploration. https://opengameart.org/content/jrpg-pack-1-exploration
-  Licensed CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/
-  Changes: re-encoded to Ogg Vorbis, loops.
+All three tracks are by Juhani Junkala, from JRPG Pack 3: Evil. https://opengameart.org/content/jrpg-pack-3-evil
+Licensed CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/
+Changes to each: re-encoded to Ogg Vorbis at 32 kHz and about 96 kbps, loudness matched, loops.
+
+- "Whispers from beyond". Plays on the title card.
+- "Witch's lair". Plays in the hollow.
+- "Catacombs". Plays at Pip's cart.
+
+v0.1.0 and v0.2.0 carried "Grasslands" by the same maker (JRPG Pack 1: Exploration, CC0). It is no longer in the game.
 
 ## Made for this game
 
