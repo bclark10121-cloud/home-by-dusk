@@ -39,6 +39,7 @@ Updated 2026-11-16. BC decides the order. Pick ideas by number.
 ## Asked for by BC, not built yet
 
 - More levels after the feel is tuned. One level until then.
+- Suno music, optional (BC, 2026-11-16, waits on G8.7). The three dark CC0 tracks fit the mood and stay. Use Suno only for a mood BC asks for after listening, or for the second biome (idea 13).
 
 ## Ideas to choose from (BC picks by number)
 
@@ -113,3 +114,12 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.
 - 2026-11-16: build stage 2 of the motion plan as v0.5.0. A tip hit deals 6 in place of 4.
 - 2026-11-16: the phone test page holds 60 frames a second at all three qualities on BC's Z Fold 8. Stage 3A ships as v0.6.0, plus a live 3D test in the real level before deciding on 3B.
+
+## v0.7.0 (2026-11-17, Release 6)
+
+- Shipped: the shared start screen (G5.21, kit 1.10.0) with this game's own painted scene (`scripts/title_art.gd`). Continue only when there is something to continue, Play opens the slot list, Settings, Quit off the web. Long key lists, tips and credits left the start screen.
+
+### Judgment calls in v0.7.0 (BC to confirm)
+
+1. The controls line on the start screen is cut to the main keys and buttons. How to play keeps the full list.
+2. The Game Shelf card shows the new start screen in place of a play picture.
