@@ -4,6 +4,17 @@ Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.9.0 (2026-11-18), Release 8 (Back at the top and both orientations, kit 1.13.0): Back at the top left of Settings, the slot list, How to play, the Journal, Pip's cart and the swap choice (asked for by BC, G5.30). Plays fully upright and sideways (asked for by BC, G6.18): the same zoom upright, with the painted sky above the hollow filling the extra height, and the Menu row under the energy readout. Turning the phone mid-trip keeps the trip. `tests/orient_test.py` and `tests/look_shot.gd`.
+
+### Judgment calls in v0.9.0 (BC to confirm)
+
+1. Upright keeps the landscape zoom. Wren stays the same size, the view is narrower side to side (about 15 tiles at Normal camera) and the sky above the hollow fills the extra height. BC to judge on a phone.
+2. Pip's cart and the swap choice use the same header, so their Back sits at the top left too (was Close at the top right).
+3. The Menu row and the Menu button fade out while a full screen panel is open, so only its Back shows at the top.
+4. Upright, the touch buttons keep their spots in the lower right. They fit a 720 wide screen.
+5. The APK turns with the phone but follows Android's rotation lock (fullUser).
+6. Version 0.9.0, a minor: new layouts (G6.11).
+
 - v0.8.0 (Release 7, standards review, kit 1.13.0): Records page with 12 achievements and 7 stats, Change controls, Battery saver, backup codes, old-save checks, an error log and music at one loudness level (still 32 kHz). Back at the top of the kit panels.
 - v0.6.0 (moves between moves): stage 3A of the motion plan. Run start, stop and turn frames, a four frame take-off, a top of the jump, three falling frames and a five frame landing. Idle, jumps, landing and hit from real KayKit clips (CC0) copied onto Wren by `tools/wren/retarget.py`. Fixed the turn pinch facing flip and the run's backward lean. A live 3D test link in the real level. A new headless `--moves` test.
 - v0.5.0 (the whip in hand): stage 2 of the motion plan. Between strikes the whip hangs from Wren's hand as a coil and a short tail moved by rope physics. It hangs from her belt while she holds another weapon. A painted braided lash and wrapped grip from Gemini. A tip hit deals 6 in place of 4 (BC, 2026-11-16). The whip and its hit box stop at rock. Presses are remembered for 0.1 s. Hand spots on every frame of every move. A new headless `--whip` test.
