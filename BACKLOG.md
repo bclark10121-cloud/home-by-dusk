@@ -1,9 +1,10 @@
 # Home by Dusk: backlog
 
-Updated 2026-11-16. BC decides the order. Pick ideas by number.
+Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.8.0 (Release 7, standards review, kit 1.13.0): Records page with 12 achievements and 7 stats, Change controls, Battery saver, backup codes, old-save checks, an error log and music at one loudness level (still 32 kHz). Back at the top of the kit panels.
 - v0.6.0 (moves between moves): stage 3A of the motion plan. Run start, stop and turn frames, a four frame take-off, a top of the jump, three falling frames and a five frame landing. Idle, jumps, landing and hit from real KayKit clips (CC0) copied onto Wren by `tools/wren/retarget.py`. Fixed the turn pinch facing flip and the run's backward lean. A live 3D test link in the real level. A new headless `--moves` test.
 - v0.5.0 (the whip in hand): stage 2 of the motion plan. Between strikes the whip hangs from Wren's hand as a coil and a short tail moved by rope physics. It hangs from her belt while she holds another weapon. A painted braided lash and wrapped grip from Gemini. A tip hit deals 6 in place of 4 (BC, 2026-11-16). The whip and its hit box stop at rock. Presses are remembered for 0.1 s. Hand spots on every frame of every move. A new headless `--whip` test.
 - v0.4.0 (the whip and the run): stage 1 of the motion plan. The Leather Whip, drawn live on every screen frame, is Wren's main weapon. The rusty sword is the second weapon. The run has 16 frames at 30 a second with bigger swings, a bounce and a lean. A feel pass: steps follow speed, a softer start and stop, dust at each footfall and a pinch on a fast turn. A phone test page shows Wren drawn live in 3D with a frame counter.
@@ -122,4 +123,24 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 ### Judgment calls in v0.7.0 (BC to confirm)
 
 1. The controls line on the start screen is cut to the main keys and buttons. How to play keeps the full list.
-2. The Game Shelf card shows the new start screen in place of a play picture.
+2. The Game Shelf card shows gameplay (BC, 2026-11-17: picked from three options).
+
+## v0.8.0 (2026-11-18, Release 7)
+
+### Judgment calls in v0.8.0 (BC to confirm)
+
+1. Kit 1.13.0, the newest, as G10.4 asks. It puts Back at the top of the kit Settings, the slot list and Records (G5.30). The journal, How to play and Pip's cart keep Back at the bottom until Release 8.
+2. 12 achievements, each from a number the save already keeps: first keepsake, all six, a secret, first trip home, first door, five doors, a 10 hit combo, 25 foes, 500 coins, four weapons held, three abilities held and an hour of play. None needs more than about two hours.
+3. A slot from v0.7.0 or earlier gets what it already did as Earned with no date and no toast, so a returning player is not shown a burst of notes.
+4. No Hold or Toggle (G5.23): no action in this game is held down for long.
+5. The kit's loudness fix turns music into 44.1 kHz. This game keeps 32 kHz for browser memory, so the music got a plain gain by hand at 32 kHz. Proposed kit change for BC: keep a file's own sample rate in `loudness.py --fix`.
+6. The Game Shelf card keeps the gameplay picture BC picked on 2026-11-17 (G2.7 and this game's shared pieces note). The older line in Deliver every time asks for a new picture every release. Only the version and the time changed.
+7. Ships as a test build with Tester tools behind the code, like v0.7.0 (no production release for this game).
+8. `audio_test.py`, `combat_test.py` and `upgrade_test.py` still walked the start screen from before Release 6. Each now picks slot 1 after Play. No game code changed for it.
+
+### Open items from v0.8.0
+
+1. Start screen motion (chimney smoke, G5.21). The title track stays `music_title.ogg`.
+2. Release 8: Back at the top of the journal, How to play and Pip's cart, and both orientations (G5.30, G6.18).
+3. The kit loudness tool keeps 44.1 kHz for music (judgment call 5).
+
