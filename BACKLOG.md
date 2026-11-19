@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.9.1 (2026-11-18): start screen title (G5.21 Title, asked for by BC). The name sits in the dead center, above the buttons, in Pirata One (SIL Open Font License 1.1), on the start screen, the game page and the Game Shelf card. Kit 1.15.0.
+
 - v0.9.0 (2026-11-18), Release 8 (Back at the top and both orientations, kit 1.13.0): Back at the top left of Settings, the slot list, How to play, the Journal, Pip's cart and the swap choice (asked for by BC, G5.30). Plays fully upright and sideways (asked for by BC, G6.18): the same zoom upright, with the painted sky above the hollow filling the extra height, and the Menu row under the energy readout. Turning the phone mid-trip keeps the trip. `tests/orient_test.py` and `tests/look_shot.gd`.
 
 ### Judgment calls in v0.9.0 (BC to confirm)

@@ -30,3 +30,4 @@ v0.1.0 and v0.2.0 carried "Grasslands" by the same maker (JRPG Pack 1: Explorati
 
 - Godot Engine 4.6. https://godotengine.org (MIT licence)
 - Blender (the bpy module). https://www.blender.org (GPL. Used as a tool only)
+- Title font: Pirata One, SIL Open Font License 1.1. Start screen, game page and Game Shelf card name (G5.21 Title, 2026-11-18). License text in `FONT-LICENSE-PirataOne.txt`.
