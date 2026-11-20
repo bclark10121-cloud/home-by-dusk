@@ -4,11 +4,13 @@ Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 ## Done
 
+- v0.10.0 (2026-11-19): Godot 4.7.2, kit 1.18.0, G6.20 (no 60 cap, frame check `--fixed-fps <hz> -- --frames --hz=<hz>`, Show frame rate), full screen by default in the browser, G6.21 wide check. Fixed the whip grip dipping into the floor in a roll. BC's Needs work (whip feel, run lean and dust, other weapons) waits for his details.
+
 - v0.9.1 (2026-11-18): start screen title (G5.21 Title, asked for by BC). The name sits in the dead center, above the buttons, in Pirata One (SIL Open Font License 1.1), on the start screen, the game page and the Game Shelf card. Kit 1.15.0.
 
 - v0.9.0 (2026-11-18), Release 8 (Back at the top and both orientations, kit 1.13.0): Back at the top left of Settings, the slot list, How to play, the Journal, Pip's cart and the swap choice (asked for by BC, G5.30). Plays fully upright and sideways (asked for by BC, G6.18): the same zoom upright, with the painted sky above the hollow filling the extra height, and the Menu row under the energy readout. Turning the phone mid-trip keeps the trip. `tests/orient_test.py` and `tests/look_shot.gd`.
 
-### Judgment calls in v0.9.0 (BC to confirm)
+### Judgment calls in v0.9.0 (confirmed by BC 2026-11-19)
 
 1. Upright keeps the landscape zoom. Wren stays the same size, the view is narrower side to side (about 15 tiles at Normal camera) and the sky above the hollow fills the extra height. BC to judge on a phone.
 2. Pip's cart and the swap choice use the same header, so their Back sits at the top left too (was Close at the top right).
@@ -37,6 +39,11 @@ Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 ## Now
 
+- Staged for the next release (BC, 2026-11-19, 10:32 PM): full screen by default in the browser (G5.11, standards 19b). Pull kit 1.17.0 with `sync_common.sh`: the game goes full screen on the first tap, click or key press, and remembers when the player turns it off. Test: `tests/common` browser run, first click sets full screen. Also take G6.20 (120 frames a second) at the same release.
+- Playtest sweep results (BC, 2026-11-19, 8:59 PM):
+  - Good: live 3D Wren belongs in the painting (stage 3B can go next), the new moves, whip in hand, tip bonus, the three music tracks, painted art, jump height, run speed and strike timings, speed on a real phone, the upright view.
+  - Needs work (details asked): whip feel (reach, wind-up, hold to repeat, crack), run lean and dust at full speed, other weapons stiff or hit pause length.
+  - All judgment calls from v0.7.0, v0.8.0 and v0.9.0 confirmed.
 - BC's three Result lines from the live 3D test in the hollow (v0.6.0) and his look: does live Wren belong in the painting? They decide whether stage 3B (Wren drawn live in the game) comes next. The phone test page gave 60 frames a second at High, Medium and Low on his Z Fold 8 (BC, 2026-11-16).
 - BC's look at the new moves: start, stop, turn, take-off, top of the jump, fall and landing.
 - BC's feel pass on the whip: reach (4 tiles), wind-up speed, hold to repeat and the crack sound.
@@ -54,6 +61,7 @@ Updated 2026-11-18. BC decides the order. Pick ideas by number.
 
 - More levels after the feel is tuned. One level until then.
 - Suno music, optional (BC, 2026-11-16, waits on G8.7). The three dark CC0 tracks fit the mood and stay. Use Suno only for a mood BC asks for after listening, or for the second biome (idea 13).
+- Combat mode, merged from game idea N27 (BC, 2026-11-19, 2:27 PM: "merge these 2 ideas together"). An opt-in mode picked at the start of a trip. The default game stays as it is, with no bosses and no dying. Combat mode plays like Dead Cells made easier: foes that fight back, a boss at the end of the biome with a checkpoint at its door, checkpoints between biomes, extra healing, clear warnings before attacks and part of the coins kept when a run fails. Keepsakes are never lost. Reuses Wren, the whip, the moves and the rooms. Pairs with ideas 10, 12 and 13. Design notes: N27 in `IDEAS_BACKLOG.md`. Size L. Waits on the standards catch-up. Open for BC: what a failed run costs, and whether the mode is open from the start or after the first trip home.
 
 ## Ideas to choose from (BC picks by number)
 
@@ -109,8 +117,8 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 
 ## Not planned (they break the pillars)
 
-- Bosses.
-- Permanent death or losing coins and keepsakes.
+- Bosses in the default mode. Combat mode (merged from N27) adds them as an opt-in.
+- Permanent death or losing keepsakes. The default mode loses no coins either. Combat mode keeps part of the coins when a run fails.
 - Cursed chests that kill on one hit. A gentle version is idea 9.
 - Leaderboards or anything against other players.
 
@@ -128,19 +136,20 @@ From the Open items in `STANDARDS_OVERRIDES.md`, plus what has not been tried on
 - 2026-11-15: keep the first releases to a small first level and limited weapons until the gameplay is in order. Keep every Gemini picture in the handoff zip for later use. Make only one of each element in Meshy per release.
 - 2026-11-16: build stage 2 of the motion plan as v0.5.0. A tip hit deals 6 in place of 4.
 - 2026-11-16: the phone test page holds 60 frames a second at all three qualities on BC's Z Fold 8. Stage 3A ships as v0.6.0, plus a live 3D test in the real level before deciding on 3B.
+- 2026-11-19, 2:27 PM: "merge these 2 ideas together". Game idea N27 (Dead Cells, made easier) joins Home by Dusk as an opt-in combat mode with bosses. The default game keeps no bosses and no dying.
 
 ## v0.7.0 (2026-11-17, Release 6)
 
 - Shipped: the shared start screen (G5.21, kit 1.10.0) with this game's own painted scene (`scripts/title_art.gd`). Continue only when there is something to continue, Play opens the slot list, Settings, Quit off the web. Long key lists, tips and credits left the start screen.
 
-### Judgment calls in v0.7.0 (BC to confirm)
+### Judgment calls in v0.7.0 (confirmed by BC 2026-11-19)
 
 1. The controls line on the start screen is cut to the main keys and buttons. How to play keeps the full list.
 2. The Game Shelf card shows gameplay (BC, 2026-11-17: picked from three options).
 
 ## v0.8.0 (2026-11-18, Release 7)
 
-### Judgment calls in v0.8.0 (BC to confirm)
+### Judgment calls in v0.8.0 (confirmed by BC 2026-11-19)
 
 1. Kit 1.13.0, the newest, as G10.4 asks. It puts Back at the top of the kit Settings, the slot list and Records (G5.30). The journal, How to play and Pip's cart keep Back at the bottom until Release 8.
 2. 12 achievements, each from a number the save already keeps: first keepsake, all six, a secret, first trip home, first door, five doors, a 10 hit combo, 25 foes, 500 coins, four weapons held, three abilities held and an hour of play. None needs more than about two hours.
